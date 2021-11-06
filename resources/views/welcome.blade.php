@@ -163,7 +163,7 @@ Juan y Laura </a>
 <div class="et-l et-l--post">
 <div class="et_builder_inner_content et_pb_gutters3">
 <div class="et_pb_section et_pb_section_0 et_pb_section_parallax et_pb_with_background et_section_regular">
-<div class="et_parallax_bg_wrap"><div class="et_parallax_bg" style="background-image: url(&quot;{{ config('app.url') . '/img/_MG_1508.jpeg' }}&quot;); height: 1185.3px; transform: translate(0px, 2333.1px);"></div></div>
+<div class="et_parallax_bg_wrap" style="background-image: url(&quot;{{ config('app.url') . '/img/_MG_1508.jpeg' }}&quot;); background-size: cover; background-position: center;"><div class="et_parallax_bg" style="background-image: url(&quot;{{ config('app.url') . '/img/_MG_1508.jpeg' }}&quot;); height: 1185.3px; transform: translate(0px, 2333.1px);"></div></div>
 <div class="et_pb_row et_pb_row_0">
 <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
 <div class="et_pb_module et_pb_text et_pb_text_0 et_pb_text_align_left et_pb_bg_layout_light et_had_animation" style="">
