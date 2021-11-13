@@ -19,7 +19,9 @@
 <meta property="og:image" content="https://juanandlaura.com/img/_MG_18919.jpeg" />
 
 <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elegantthemes.com/layouts/#website","url":"https://www.elegantthemes.com/layouts/","name":"Elegant Themes","description":"Divi Layouts","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.elegantthemes.com/layouts/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo#webpage","url":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo","name":"Wedding Engagement Landing - Elegant Themes","isPartOf":{"@id":"https://www.elegantthemes.com/layouts/#website"},"datePublished":"2019-03-08T01:03:07+00:00","dateModified":"2019-03-08T01:11:49+00:00","breadcrumb":{"@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo"]}]},{"@type":"BreadcrumbList","@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.elegantthemes.com/layouts"},{"@type":"ListItem","position":2,"name":"Wedding Engagement Landing"}]}]}</script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="alternate" type="application/rss+xml" title="Elegant Themes » Feed" href="https://www.elegantthemes.com/layouts/feed">
 <link rel="alternate" type="application/rss+xml" title="Elegant Themes » Comments Feed" href="https://www.elegantthemes.com/layouts/comments/feed">
@@ -156,12 +158,12 @@ jQuery.noConflict();
 }</style><meta name="generator" value="Saved inlined page from https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo on Mon Oct 11 2021 20:02:00 GMT-0300 (Uruguay Standard Time)"><base href="https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo"><meta name="generator" value="Saved inlined page from https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo on Mon Oct 11 2021 20:02:35 GMT-0300 (Uruguay Standard Time)"></head>
 <body class="page-template-default page page-id-220040 theme-Divi woocommerce-js et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db chrome" data-new-gr-c-s-check-loaded="14.1032.0" data-gr-ext-installed="" style="overflow-x: hidden;">
 <div id="page-container" class="et-animated-content" style="padding-top: 80px; overflow-y: hidden; margin-top: -27px;">
-<header id="main-header" data-height-onload="80" data-height-loaded="true" data-fixed-height-onload="80" style="top: 0px;" class="et-fixed-header">
+<header id="main-header" data-height-onload="80" data-height-loaded="true" data-fixed-height-onload="80">
 <div class="container clearfix et_menu_container">
 <div class="title_container">
 <h1>
-<a href="https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page" title="Divi Builder Layout Pack">
-Juan y Laura </a>
+<a href="{{ config('app.url') }}" style="font-family: 'Dancing Script', cursive;font-size: 30px;">
+Juan & Laura </a>
 </h1>
 </div>
 <div id="et-top-navigation" data-height="66" data-fixed-height="40">
@@ -232,12 +234,12 @@ Juan y Laura </a>
 </div>
 <div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
   <div class="et_pb_text_inner"><h2>Nuestra Historia</h2>
-    <p>Despues de 8 años, 4 meses, 21 días, 3 mudanzas, 1 perra, miles de paseos y comidas, infinitas celebraciones y reuniones. Después de 8 trabajos, después de 3 bodas (ninguna nuestra), después de escuchar en cada una de ellas la pregunta ¿y ustedes para cuándo?. Después de tantos y tantos momentos compartidos, nuestro gran día llega y ¡estas invitado!</p>
+    <p>Despues de 8 años, 4 meses, 21 días, 3 mudanzas, 1 perra hija, miles de paseos y comidas, infinitas celebraciones y reuniones. Después de 8 trabajos, después de 3 bodas (ninguna nuestra), después de escuchar en cada una de ellas la pregunta ¿y ustedes para cuándo?. Después de tantos y tantos momentos compartidos, nuestro gran día llega y ¡estas invitado!</p>
   </div>
 </div>
 <div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
   <div class="et_pb_text_inner"><h3>En 2021, dijimos que sí!</h3>
-    <p>¡Te esperamos para que vengas a celebrar este momento tan especial para nosotros con nosotros!</p></div>
+    <p>¡Te esperamos para que vengas a celebrar este momento tan especial junto a nosotros!</p></div>
   </div>
 <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper  et_pb_module ">
 {{-- <a class="et_pb_button et_pb_button_2 et_pb_bg_layout_light" href="">Read More</a> --}}

@@ -24,7 +24,9 @@
 <meta name="twitter:label1" content="Est. reading time">
 <meta name="twitter:data1" content="10 minutes">
 <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elegantthemes.com/layouts/#website","url":"https://www.elegantthemes.com/layouts/","name":"Elegant Themes","description":"Divi Layouts","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.elegantthemes.com/layouts/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo#webpage","url":"https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo","name":"Wedding Engagement Gallery - Elegant Themes","isPartOf":{"@id":"https://www.elegantthemes.com/layouts/#website"},"datePublished":"2019-03-08T01:03:06+00:00","dateModified":"2019-03-08T01:11:53+00:00","breadcrumb":{"@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo"]}]},{"@type":"BreadcrumbList","@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.elegantthemes.com/layouts"},{"@type":"ListItem","position":2,"name":"Wedding Engagement Gallery"}]}]}</script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="alternate" type="application/rss+xml" title="Elegant Themes » Feed" href="https://www.elegantthemes.com/layouts/feed">
 <link rel="alternate" type="application/rss+xml" title="Elegant Themes » Comments Feed" href="https://www.elegantthemes.com/layouts/comments/feed">
@@ -145,8 +147,8 @@ jQuery.noConflict();
 <div class="container clearfix et_menu_container">
 <div class="title_container">
 <h1>
-<a href="https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page" title="Divi Builder Layout Pack">
-Juan y Laura </a>
+    <a href="{{ config('app.url') }}" style="font-family: 'Dancing Script', cursive;font-size: 30px;">
+        Juan & Laura </a>
 </h1>
 </div>
 <div id="et-top-navigation" data-height="66" data-fixed-height="40">
