@@ -18,11 +18,11 @@ class Attendant extends Model
 
     public function getCertificateUrlAttribute()
     {
-        return config('app.url') . $this->certificate;
+        return config('app.url') . 'storage/' . $this->certificate;
     }
 
     public function getCertificateUrl()
     {
-        return config('app.url') . $this->certificate;
+        return config('app.url') . 'storage/' . $this->certificate;
     }
 }
