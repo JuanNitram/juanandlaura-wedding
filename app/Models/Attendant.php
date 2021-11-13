@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Attendant extends Model
 {
+    use \Backpack\CRUD\app\Models\Traits\CrudTrait;
     use HasFactory;
 
     protected $table = 'attendees';
@@ -16,6 +17,11 @@ class Attendant extends Model
     ];
 
     public function getCertificateUrlAttribute()
+    {
+        return config('app.url') . $this->certificate;
+    }
+
+    public function getCertificateUrl()
     {
         return config('app.url') . $this->certificate;
     }

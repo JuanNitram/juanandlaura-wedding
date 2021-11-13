@@ -466,7 +466,7 @@ Juan y Laura </a>
     
     <select id="et_pb_contact_rsvp_0" name="attend" class="et_pb_contact_select input" required>
       <option disabled>Asistirás a nuestro casamiento?</option>
-      <option value="yes" selected>Yes</option>
+      <option value="yes" selected>Si</option>
       <option value="no">No</option>
     </select>
   </p>
@@ -702,6 +702,15 @@ function getBase64(file) {
 document.getElementById('certificate').addEventListener('change', function(e) {
   getBase64(e.target.files[0]);
 });
+
+document.getElementById('attendees_form').addEventListener('submit', function() {
+  setTimeout(function() {
+    document.getElementById('et_pb_contact_form_0').innerHTML = '<p style="text-align: center; font-size: 25px;">¡Muchas gracias por confirmar tu presencia!</p>';
+    setTimeout(function() {
+      window.location.reload();
+    }, 1500);
+  }, 1000);
+})
 </script>
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
