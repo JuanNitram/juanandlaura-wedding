@@ -14,7 +14,7 @@
 <title>Juan & Laura</title>
 <meta property="og:title" content="Juan & Laura">
 <meta property="og:url" content="https://juanandlaura.com">
-<meta property="og:description" content="Nos Casamos!">
+<meta property="og:description" content="¡Dijimos que si! ¡Nos Casamos! ¡Y no podemos celebrarlo si tí!">
 <meta property="og:site_name" content="Juan & Laura">
 <meta property="og:image" content="https://juanandlaura.com/img/_MG_18919.jpeg" />
 
@@ -202,8 +202,8 @@ Juan y Laura </a>
 <div class="et_pb_row et_pb_row_0">
 <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
 <div class="et_pb_module et_pb_text et_pb_text_0 et_pb_text_align_left et_pb_bg_layout_light et_had_animation" style="">
-<div class="et_pb_text_inner"><h6 style="color: white">Dijimos que si!</h6>
-<h1 style="color: white">Nos casamos!</h1></div>
+<div class="et_pb_text_inner"><h6 style="color: white">¡Dijimos que si!</h6>
+<h1 style="color: white">¡Nos casamos!</h1></div>
 </div>
 </div>
 </div><div class="et_pb_row et_pb_row_1">
