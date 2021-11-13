@@ -24,6 +24,7 @@ class AttendanceController
         $attendant->full_name = $request->full_name;
         $attendant->attend = $request->attend === 'yes';
         $attendant->certificate = 'certificates/' . $certificateBase64Name;
+        $attendant->type = $request->type === null ? 'NOT_DEFINED' : $request->type;
 
         $attendant->save();
     }

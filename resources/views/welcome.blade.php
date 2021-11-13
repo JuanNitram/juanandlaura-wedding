@@ -169,7 +169,7 @@ Juan & Laura </a>
 <div id="et-top-navigation" data-height="66" data-fixed-height="40">
 <nav id="top-menu-nav">
 <ul id="top-menu" class="nav">
-<li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220031"><a href="{{ config('app.url') }}gallery">Galeria</a></li>
+<li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220031"><a href="{{ config('app.url') }}gallery">Galería</a></li>
 {{-- <li id="menu-item-220037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220037"><a href="{{ config('app.url') }}contact">Contacto</a></li> --}}
 <li id="menu-item-220043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220043 current-menu-item current_page_item"><a href="{{ config('app.url') }}">Inicio</a></li>
 </ul> </nav>
@@ -178,7 +178,7 @@ Juan & Laura </a>
 <span class="select_page">Select Page</span>
 <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
 <ul id="mobile_menu" class="et_mobile_menu">
-<li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220031"><a href="{{ config('app.url') }}gallery">Galeria</a></li>
+<li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220031"><a href="{{ config('app.url') }}gallery">Galería</a></li>
 {{-- <li id="menu-item-220039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220039"><a href="https://www.elegantthemes.com/layouts/events/wedding-engagement-story-page/live-demo">Contacto</a></li> --}}
 <li id="menu-item-220043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220043"><a href="{{ config('app.url') }}">Inicio</a></li>
 </ul></div>
@@ -461,12 +461,24 @@ Juan & Laura </a>
   </p>
 
   <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
-    <label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">Asistirás a nuestro casamiento?</label>
+    <label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">¿Asistirás a nuestro casamiento?</label>
     
     <select id="et_pb_contact_rsvp_0" name="attend" class="et_pb_contact_select input" required>
-      <option disabled>Asistirás a nuestro casamiento?</option>
-      <option value="yes" selected>Si</option>
+      <option disabled selected value="yes">¿Asistirás a nuestro casamiento?</option>
+      <option value="yes">Si</option>
       <option value="no">No</option>
+    </select>
+  </p>
+
+  <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
+    <label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">¿Vegano, Vegetariano o celíaco?<</label>
+    
+    <select id="et_pb_contact_rsvp_0" name="type" class="et_pb_contact_select input" required>
+      <option disabled selected value="NOT_DEFINED">¿Vegano, Vegetariano o celíaco?</option>
+      <option value="NOT_DEFINED">No define</option>
+      <option value="VEGAN">Vegano</option>
+      <option value="VEGETARIAN">Vegetariano</option>
+      <option value="CELIAC">Celíaco</option>
     </select>
   </p>
 

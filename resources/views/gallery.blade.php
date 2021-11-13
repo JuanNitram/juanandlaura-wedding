@@ -200,7 +200,7 @@ jQuery.noConflict();
 <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
 <div class="et_pb_module et_pb_text et_pb_text_0 et_pb_text_align_left et_pb_bg_layout_light et_had_animation" style="">
 <div class="et_pb_text_inner">
-    <h1 style="color: white">Gallery</h1>
+    <h1 style="color: white">Galería</h1>
 </div>
 </div>
 </div>
@@ -305,14 +305,26 @@ jQuery.noConflict();
         </p>
       
         <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
-          <label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">Asistirás a nuestro casamiento?</label>
-          
-          <select id="et_pb_contact_rsvp_0" name="attend" class="et_pb_contact_select input" required>
-            <option disabled>Asistirás a nuestro casamiento?</option>
-            <option value="yes" selected>Si</option>
-            <option value="no">No</option>
-          </select>
-        </p>
+            <label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">¿Asistirás a nuestro casamiento?</label>
+            
+            <select id="et_pb_contact_rsvp_0" name="attend" class="et_pb_contact_select input" required>
+              <option disabled selected value="yes">¿Asistirás a nuestro casamiento?</option>
+              <option value="yes">Si</option>
+              <option value="no">No</option>
+            </select>
+          </p>
+        
+          <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
+            <label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">¿Vegano, Vegetariano o celíaco?<</label>
+            
+            <select id="et_pb_contact_rsvp_0" name="type" class="et_pb_contact_select input" required>
+              <option disabled selected value="NOT_DEFINED">¿Vegano, Vegetariano o celíaco?</option>
+              <option value="NOT_DEFINED">No define</option>
+              <option value="VEGAN">Vegano</option>
+              <option value="VEGETARIAN">Vegetariano</option>
+              <option value="CELIAC">Celíaco</option>
+            </select>
+          </p>
       
         <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
           <div onclick="document.getElementById('certificate').click()" style="position: relative; padding: 25px; padding-top: 40px; padding-bottom: 40px; margin-left: 3%;border: #f6f9fc;border-width: 2px;border-color: #89b2d3;border-style: dashed; display:flex justify-content: center;">
@@ -406,7 +418,7 @@ jQuery.noConflict();
 <span>RSS</span>
 </a>
 </li>
-</ul><p id="footer-info">Designed by <a href="https://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a> | Powered by <a href="https://www.wordpress.org">WordPress</a></p> </div>
+</ul><p id="footer-info">Designed by <a href="https://www.juanvargas.me" title="Juan Vargas">Juan Vargas</a> | Powered by <a href="https://www.wordpress.org">WordPress</a></p> </div>
 </div>
 </footer>
 </div>

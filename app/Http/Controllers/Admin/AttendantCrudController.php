@@ -42,6 +42,7 @@ class AttendantCrudController extends CrudController
         CRUD::column('id');
         CRUD::column('full_name');
         $this->crud->addColumn(['name' => 'attend', 'label' => 'Attend', 'type' => 'boolean', 'options' => [0 => 'Attend', 1 => 'No Attend']]);
+        CRUD::column('type');
         CRUD::column('certificate_url');
         CRUD::column('created_at');
 
@@ -67,6 +68,7 @@ class AttendantCrudController extends CrudController
         CRUD::field('id');
         CRUD::field('full_name');
         CRUD::field('attend');
+        CRUD::column('type');
         CRUD::field('certificate');
         CRUD::field('created_at');
 
@@ -94,6 +96,7 @@ class AttendantCrudController extends CrudController
         
         CRUD::column('full_name');
         $this->crud->addColumn(['name' => 'attend', 'label' => 'Attend', 'type' => 'boolean', 'options' => [0 => 'Attend', 1 => 'No Attend']]);
+        CRUD::column('type');
         CRUD::column('certificate_url');
         CRUD::column('created_at');
     }
