@@ -14,6 +14,7 @@
 <title>Juan & Laura</title>
 <meta property="og:title" content="Juan & Laura">
 <meta property="og:url" content="https://juanandlaura.com">
+<meta property="og:description" content="Nos Casamos!">
 <meta property="og:site_name" content="Juan & Laura">
 <meta property="og:image" content="https://juanandlaura.com/img/_MG_18919.jpeg" />
 
