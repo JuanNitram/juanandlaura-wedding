@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Web\AttendanceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,5 @@ Route::get('/', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::post('/wedding/attend', [AttendanceController::class, 'weddingAttend'])->name('wedding.attend');
