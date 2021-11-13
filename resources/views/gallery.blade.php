@@ -155,7 +155,7 @@ Juan y Laura </a>
     
     <li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-220030 current_page_item menu-item-220031"><a href="https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo" aria-current="page">Galería</a></li>
 
-    <li id="menu-item-220037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220037"><a href="{{ config('app.url') }}contact">Contacto</a></li>
+    {{-- <li id="menu-item-220037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220037"><a href="{{ config('app.url') }}contact">Contacto</a></li> --}}
 
     <li id="menu-item-220043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220043"><a href="{{ config('app.url') }}">Inicio</a></li>
 </ul>
@@ -168,7 +168,7 @@ Juan y Laura </a>
 <ul id="mobile_menu" class="et_mobile_menu">
     <li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-220030 current_page_item menu-item-220031"><a href="https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo" aria-current="page">Galería</a></li>
     
-    <li id="menu-item-220037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220037"><a href="{{ config('app.url') }}contact">Contacto</a></li>
+    {{-- <li id="menu-item-220037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220037"><a href="{{ config('app.url') }}contact">Contacto</a></li> --}}
     
     <li id="menu-item-220043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220043"><a href="{{ config('app.url') }}">Inicio</a></li>
 </ul>
@@ -257,62 +257,129 @@ Juan y Laura </a>
 </div>
 </div>
 </div>
-</div><div class="et_pb_section et_pb_section_3 et_pb_with_background et_section_regular">
+</div>
+
+
+<div class="et_pb_section et_pb_section_3 et_pb_with_background et_section_regular">
 <div class="et_pb_with_border et_pb_row et_pb_row_7 et_pb_equal_columns et_pb_gutters3 et_had_animation" style="">
 <div class="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
-<div class="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_pb_no_bg et_pb_bg_layout_light" data-end-timestamp="1556643540">
+<div class="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_pb_no_bg et_pb_bg_layout_light" data-end-timestamp="1641686400">
 <div class="et_pb_countdown_timer_container clearfix">
-<div class="days section values zero" data-short="Day" data-full="Day(s)">
+<div class="days section values zero" data-short="Días" data-full="Días">
 <p class="value">000</p>
-<p class="label">Day(s)</p>
+<p class="label">Días</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="hours section values zero" data-short="Hrs" data-full="Hour(s)">
+</div><div class="hours section values zero" data-short="Hrs" data-full="Horas">
 <p class="value">00</p>
-<p class="label">Hour(s)</p>
+<p class="label">Horas</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="minutes section values zero" data-short="Min" data-full="Minute(s)">
+</div><div class="minutes section values zero" data-short="Mins" data-full="Minutos">
 <p class="value">00</p>
-<p class="label">Minute(s)</p>
+<p class="label">Minutos</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="seconds section values zero" data-short="Sec" data-full="Second(s)">
+</div><div class="seconds section values zero" data-short="Segs" data-full="Segundos">
 <p class="value">00</p>
-<p class="label">Second(s)</p>
+<p class="label">Segundos</p>
 </div>
 </div>
-</div><div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_light">
-<div class="et_pb_text_inner"><h2>We Can’t Wait To Celebrate With You!</h2>
-<p>We’re Tying&nbsp; The Knot on Jun 24th in San Francisco, CA</p></div>
+</div>
+<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_light">
+<div class="et_pb_text_inner"><h2>No podemos esperar mas!</h2>
+<p>Nos vemos &nbsp;el 9 de enero en Montevideo!</p></div>
 </div>
 <div id="et_pb_contact_form_0" class="et_pb_module et_pb_contact_form_0 et_pb_contact_form_container clearfix" data-form_unique_num="0">
 <div class="et-pb-contact-message"></div>
 <div class="et_pb_contact">
-<form class="et_pb_contact_form clearfix" method="post" action="https://www.elegantthemes.com/layouts/events/wedding-engagement-gallery-page/live-demo">
-<p class="et_pb_contact_field et_pb_contact_field_0 et_pb_contact_field_last" data-id="name" data-type="input">
-<label for="et_pb_contact_name_0" class="et_pb_contact_form_label">Name</label>
-<input type="text" id="et_pb_contact_name_0" class="input" value="" name="et_pb_contact_name_0" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="Name">
-</p><p class="et_pb_contact_field et_pb_contact_field_1 et_pb_contact_field_last" data-id="email" data-type="email">
-<label for="et_pb_contact_email_0" class="et_pb_contact_form_label">Email Address</label>
-<input type="text" id="et_pb_contact_email_0" class="input" value="" name="et_pb_contact_email_0" data-required_mark="required" data-field_type="email" data-original_id="email" placeholder="Email Address">
-</p><p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last" data-id="rsvp" data-type="select">
-<label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">Will You Be Attending?</label>
-<select id="et_pb_contact_rsvp_0" class="et_pb_contact_select input" name="et_pb_contact_rsvp_0" data-required_mark="required" data-field_type="select" data-original_id="rsvp">
-<option value="">Will You Be Attending?</option><option value="Yes">Yes</option><option value="No">No</option>
-</select>
-</p>
-<input type="hidden" value="et_contact_proccess" name="et_pb_contactform_submit_0">
-<div class="et_contact_bottom_container">
-<button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button">submit</button>
-</div>
-<input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-0" name="_wpnonce-et-pb-contact-form-submitted-0" value="06decf0ea9"><input type="hidden" name="_wp_http_referer" value="/layouts/events/wedding-engagement-gallery-page/live-demo">
+
+    <form id="attendees_form" class="et_pb_contact_form clearfix" method="post" action="{{ route('wedding.attend') }}" enctype="multipart/form-data">
+        @csrf
+
+        <p class="et_pb_contact_field et_pb_contact_field_0 et_pb_contact_field_last">
+          <label for="et_pb_contact_name_0" class="et_pb_contact_form_label">Nombre</label>
+          <input id="et_pb_contact_name_0" name="full_name" type="text" class="input" placeholder="Nombre completo" required>
+        </p>
+      
+        <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
+          <label for="et_pb_contact_rsvp_0" class="et_pb_contact_form_label">Asistirás a nuestro casamiento?</label>
+          
+          <select id="et_pb_contact_rsvp_0" name="attend" class="et_pb_contact_select input" required>
+            <option disabled>Asistirás a nuestro casamiento?</option>
+            <option value="yes" selected>Si</option>
+            <option value="no">No</option>
+          </select>
+        </p>
+      
+        <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
+          <div onclick="document.getElementById('certificate').click()" style="position: relative; padding: 25px; padding-top: 40px; padding-bottom: 40px; margin-left: 3%;border: #f6f9fc;border-width: 2px;border-color: #89b2d3;border-style: dashed; display:flex justify-content: center;">
+            <div id="certificate_name" style="overflow: hidden; display:flex; justify-content:center; margin-top: -25px">
+              Certificado de vacunacion
+            </div>
+            <div style="position: absolute; bottom: 50%; width: 20px; left: 50%;transform: translate(-50%, 140%);">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 374.116 374.116" style="enable-background:new 0 0 374.116 374.116;" xml:space="preserve" fill="#89b2d3">
+                <g>
+                  <path d="M344.058,207.506c-16.568,0-30,13.432-30,30v76.609h-254v-76.609c0-16.568-13.432-30-30-30c-16.568,0-30,13.432-30,30   v106.609c0,16.568,13.432,30,30,30h314c16.568,0,30-13.432,30-30V237.506C374.058,220.938,360.626,207.506,344.058,207.506z"/>
+                  <path d="M123.57,135.915l33.488-33.488v111.775c0,16.568,13.432,30,30,30c16.568,0,30-13.432,30-30V102.426l33.488,33.488   c5.857,5.858,13.535,8.787,21.213,8.787c7.678,0,15.355-2.929,21.213-8.787c11.716-11.716,11.716-30.71,0-42.426L208.271,8.788   c-11.715-11.717-30.711-11.717-42.426,0L81.144,93.489c-11.716,11.716-11.716,30.71,0,42.426   C92.859,147.631,111.855,147.631,123.57,135.915z"/>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                </svg>
+            </div>
+          </div>
+        </p>
+      
+        <p class="et_pb_contact_field et_pb_contact_field_0 et_pb_contact_field_last">
+          <label for="et_pb_contact_name_0" class="et_pb_contact_form_label">Certificado</label>
+          <input id="certificate" name="certificate" type='file' required style="background: #f6f9fc; padding: 10px;" hidden/>
+        </p>
+      
+        <input id="certificate_base64" name="certificate_base64" hidden/>
+      
+        <div style="display: flex; justify-content: center; width: 100%">
+            <div class="et_contact_bottom_container">
+              <button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button">Confirmar</button>
+            </div>
+        </div>
+
 </form>
 </div>
 </div>
 </div>
 </div>
-</div> </div>
+</div>
+
+
+</div>
 </div>
 </div>
 </div> 
@@ -511,5 +578,46 @@ var et_pb_sticky_elements = [];
 //]]></script>
 <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;rayId&quot;:&quot;69cbbc2fccd9f80a&quot;,&quot;token&quot;:&quot;a595f655f9be4d8cba21c8023304252d&quot;,&quot;version&quot;:&quot;2021.9.0&quot;,&quot;si&quot;:100}"></script>
 
+<script>
+function getBase64(file) {
+   var reader = new FileReader();
+   reader.readAsDataURL(file);
+   reader.onload = function () {
+    let element = document.getElementById('certificate_base64');
+    element.setAttribute('value', reader.result);
+   };
+   reader.onerror = function (error) {
+     console.log('Error: ', error);
+   };
+}
+
+document.getElementById('certificate').addEventListener('change', function(e) {
+  getBase64(e.target.files[0]);
+  document.getElementById('certificate_name').innerHTML = e.target.files[0].name;
+});
+
+document.getElementById('attendees_form').addEventListener('submit', function() {
+  setTimeout(function() {
+    document.getElementById('et_pb_contact_form_0').innerHTML = '<p style="text-align: center; font-size: 25px;">¡Muchas gracias por confirmar tu presencia!</p>';
+    setTimeout(function() {
+      window.location.reload();
+    }, 1500);
+  }, 1000);
+})
+
+let navOpen = false;
+document.getElementById('et_mobile_nav_menu').addEventListener('click', function() {
+  navOpen = !navOpen;
+  if(navOpen) {
+    document.getElementById('mobile_menu').style.display = 'block';
+    setTimeout(function() {
+      document.getElementById('mobile_menu').style.display = 'none';
+      navOpen = false;
+    }, 4500);
+  } else {
+    document.getElementById('mobile_menu').style.display = 'none';
+  }
+});
+</script>
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>

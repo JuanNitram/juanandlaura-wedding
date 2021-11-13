@@ -12,17 +12,11 @@
 <meta name="robots" content="noindex, nofollow">
 
 <title>Juan & Laura</title>
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Wedding Engagement Landing - Elegant Themes">
-<meta property="og:url" content="https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo">
-<meta property="og:site_name" content="Elegant Themes">
-<meta property="article:publisher" content="https://www.facebook.com/elegantthemes">
-<meta property="article:modified_time" content="2019-03-08T01:11:49+00:00">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@elegantthemes">
-<meta name="twitter:label1" content="Est. reading time">
-<meta name="twitter:data1" content="22 minutes">
+<meta property="og:title" content="Juan & Laura">
+<meta property="og:url" content="https://juanandlaura.com">
+<meta property="og:site_name" content="Juan & Laura">
+<meta property="og:image" content="https://juanandlaura.com/img/_MG_18919.jpeg" />
+
 <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elegantthemes.com/layouts/#website","url":"https://www.elegantthemes.com/layouts/","name":"Elegant Themes","description":"Divi Layouts","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.elegantthemes.com/layouts/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo#webpage","url":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo","name":"Wedding Engagement Landing - Elegant Themes","isPartOf":{"@id":"https://www.elegantthemes.com/layouts/#website"},"datePublished":"2019-03-08T01:03:07+00:00","dateModified":"2019-03-08T01:11:49+00:00","breadcrumb":{"@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo"]}]},{"@type":"BreadcrumbList","@id":"https://www.elegantthemes.com/layouts/events/wedding-engagement-landing-page/live-demo#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.elegantthemes.com/layouts"},{"@type":"ListItem","position":2,"name":"Wedding Engagement Landing"}]}]}</script>
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -173,8 +167,8 @@ Juan y Laura </a>
 <nav id="top-menu-nav">
 <ul id="top-menu" class="nav">
 <li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220031"><a href="{{ config('app.url') }}gallery">Galeria</a></li>
-<li id="menu-item-220037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220037"><a href="{{ config('app.url') }}contact">Contacto</a></li>
-<li id="menu-item-220043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220043"><a href="{{ config('app.url') }}">Inicio</a></li>
+{{-- <li id="menu-item-220037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220037"><a href="{{ config('app.url') }}contact">Contacto</a></li> --}}
+<li id="menu-item-220043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220043 current-menu-item current_page_item"><a href="{{ config('app.url') }}">Inicio</a></li>
 </ul> </nav>
 <div id="et_mobile_nav_menu">
 <div class="mobile_nav closed">
@@ -182,7 +176,7 @@ Juan y Laura </a>
 <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
 <ul id="mobile_menu" class="et_mobile_menu">
 <li id="menu-item-220031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220031"><a href="{{ config('app.url') }}gallery">Galeria</a></li>
-<li id="menu-item-220039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220039"><a href="https://www.elegantthemes.com/layouts/events/wedding-engagement-story-page/live-demo">Contacto</a></li>
+{{-- <li id="menu-item-220039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220039"><a href="https://www.elegantthemes.com/layouts/events/wedding-engagement-story-page/live-demo">Contacto</a></li> --}}
 <li id="menu-item-220043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220043"><a href="{{ config('app.url') }}">Inicio</a></li>
 </ul></div>
 </div> </div> 
@@ -404,13 +398,13 @@ Juan y Laura </a>
 </div>
 </div>
 </div> --}}
-{{-- </div> --}}
-
+{{-- </div>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=chacra%20la%20tradicion%20camino&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">map widgets for websites</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> --}}
 
   <div style="display: flex; justify-content: center">
     <div class="mapouter" style="background: #ffffff">
       <div class="gmap_canvas" style="display:flex; justify-content:center">
-        <iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=chacra%20la%20tradicion&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=chacra%20la%20tradicion%20camino&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         
         <style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style>
         <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>
@@ -425,7 +419,7 @@ Juan y Laura </a>
 <div class="et_pb_column et_pb_column_4_4 et_pb_column_25  et_pb_css_mix_blend_mode_passthrough et-last-child">
 <div class="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_pb_no_bg et_pb_bg_layout_light" data-end-timestamp="1641686400">
 <div class="et_pb_countdown_timer_container clearfix">
-<div class="days section values zero" data-short="Day" data-full="Días">
+<div class="days section values zero" data-short="Días" data-full="Días">
 <p class="value">000</p>
 <p class="label">Días</p>
 </div><div class="sep section zero">
@@ -435,17 +429,19 @@ Juan y Laura </a>
 <p class="label">Horas</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="minutes section values zero" data-short="Min" data-full="Minutos">
+</div><div class="minutes section values zero" data-short="Mins" data-full="Minutos">
 <p class="value">00</p>
 <p class="label">Minutos</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="seconds section values zero" data-short="Sec" data-full="Segundos">
+</div><div class="seconds section values zero" data-short="Segs" data-full="Segundos">
 <p class="value">00</p>
 <p class="label">Segundos</p>
 </div>
 </div>
-</div><div class="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
+</div>
+
+<div class="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
 <div class="et_pb_text_inner"><h2>No podemos esperar mas!</h2>
 <p>Nos vemos &nbsp;el 9 de enero en Montevideo!</p></div>
 </div>
@@ -524,8 +520,10 @@ Juan y Laura </a>
 
   <input id="certificate_base64" name="certificate_base64" hidden/>
 
-  <div class="et_contact_bottom_container">
-    <button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button">Confirmar</button>
+  <div style="display: flex; justify-content: center; width: 100%">
+    <div class="et_contact_bottom_container">
+      <button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button">Confirmar</button>
+    </div>
   </div>
 </form>
 
@@ -533,7 +531,8 @@ Juan y Laura </a>
 </div>
 </div>
 </div>
-</div> </div>
+</div>
+</div>
 </div>
 </div>
 </div> 
@@ -758,6 +757,20 @@ document.getElementById('attendees_form').addEventListener('submit', function() 
     }, 1500);
   }, 1000);
 })
+
+let navOpen = false;
+document.getElementById('et_mobile_nav_menu').addEventListener('click', function() {
+  navOpen = !navOpen;
+  if(navOpen) {
+    document.getElementById('mobile_menu').style.display = 'block';
+    setTimeout(function() {
+      document.getElementById('mobile_menu').style.display = 'none';
+      navOpen = false;
+    }, 4500);
+  } else {
+    document.getElementById('mobile_menu').style.display = 'none';
+  }
+});
 </script>
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
