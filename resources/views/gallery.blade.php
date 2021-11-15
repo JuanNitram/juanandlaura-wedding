@@ -353,7 +353,7 @@ jQuery.noConflict();
 </div>
 </div>
 <div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_light">
-<div class="et_pb_text_inner"><h2>No podemos esperar mas!</h2>
+<div class="et_pb_text_inner"><h2>No podemos esperar más!</h2>
 <p>Nos vemos &nbsp;el 9 de enero en Montevideo!</p></div>
 </div>
 <div id="et_pb_contact_form_0" class="et_pb_module et_pb_contact_form_0 et_pb_contact_form_container clearfix" data-form_unique_num="0">
@@ -393,7 +393,7 @@ jQuery.noConflict();
         <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last">
           <div onclick="document.getElementById('certificate').click()" style="position: relative; padding: 25px; padding-top: 40px; padding-bottom: 40px; margin-left: 3%;border: #f6f9fc;border-width: 2px;border-color: #89b2d3;border-style: dashed; display:flex justify-content: center;">
             <div id="certificate_name" style="overflow: hidden; display:flex; justify-content:center; margin-top: -25px">
-              Certificado de vacunacion
+              Certificado de Vacunación
             </div>
             <div style="position: absolute; bottom: 50%; width: 20px; left: 50%;transform: translate(-50%, 140%);">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 374.116 374.116" style="enable-background:new 0 0 374.116 374.116;" xml:space="preserve" fill="#89b2d3">
