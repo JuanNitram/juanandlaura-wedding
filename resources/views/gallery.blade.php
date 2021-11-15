@@ -290,11 +290,30 @@ jQuery.noConflict();
 
 <div class="et_pb_row et_pb_row_6">
 <div class="et_pb_column et_pb_column_2_5 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et_pb_column_empty">
-</div><div class="et_pb_column et_pb_column_3_5 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
-<div class="et_pb_module et_pb_image et_pb_image_8 et-animated et_had_animation" style="">
+</div>
+
+<div class="et_pb_column et_pb_column_3_5 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_module et_pb_image et_pb_image_8 et-animated et_had_animation" style="padding-bottom: 58px;background: transparent;">
 <span class="et_pb_image_wrap has-box-shadow-overlay"><div class="box-shadow-overlay"></div><img loading="lazy" width="1397" height="698" src="{{ config('app.url') }}img/_MG_1516.jpeg" sizes="(max-width: 1397px) 100vw, 1397px" class="wp-image-220004"></span>
 </div>
 </div>
+
+<div class="et_pb_column et_pb_column_3_5 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+  <div class="et_pb_module et_pb_image et_pb_image_8 et-animated et_had_animation" style="padding-bottom: 0px;background: transparent;">
+  <span class="et_pb_image_wrap has-box-shadow-overlay"><div class="box-shadow-overlay"></div><img loading="lazy" width="1397" height="698" src="{{ config('app.url') }}img/_MG_1891789.jpeg" sizes="(max-width: 1397px) 100vw, 1397px" class="wp-image-220004"></span>
+  </div>
+  </div>
+</div>
+
+<div class="et_pb_row et_pb_row_6">
+  <div class="et_pb_column et_pb_column_2_5 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et_pb_column_empty">
+  </div>
+
+  <div class="et_pb_column et_pb_column_3_5 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+    <div class="et_pb_module et_pb_image et_pb_image_8 et-animated et_had_animation">
+    <span class="et_pb_image_wrap has-box-shadow-overlay"><div class="box-shadow-overlay"></div><img loading="lazy" width="1397" height="698" src="{{ config('app.url') }}img/_MG_189179.jpeg" sizes="(max-width: 1397px) 100vw, 1397px" class="wp-image-220004"></span>
+    </div>
+    </div>
 </div>
 </div>
 
