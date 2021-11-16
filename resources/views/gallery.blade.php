@@ -657,6 +657,10 @@ var et_pb_sticky_elements = [];
 <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;rayId&quot;:&quot;69cbbc2fccd9f80a&quot;,&quot;token&quot;:&quot;a595f655f9be4d8cba21c8023304252d&quot;,&quot;version&quot;:&quot;2021.9.0&quot;,&quot;si&quot;:100}"></script>
 
 <script>
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 function getBase64(file) {
    var reader = new FileReader();
    reader.readAsDataURL(file);
