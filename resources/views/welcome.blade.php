@@ -322,7 +322,7 @@ Juan & Laura </a>
 <div class="et_pb_column et_pb_column_1_2 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough">
 <div class="et_pb_module et_pb_text et_pb_text_6  et_pb_text_align_left et_pb_bg_layout_light">
 <div class="et_pb_text_inner"><h2>Detalles del Casamiento</h2>
-<p>La ceremonia dará inicio a las 16:30 hrs por lo que es importante ser puntual, las puertas para los invitados estarán abiertas desde las 16:00 hrs. Es importante confirmar presencia antes del 26 de diciembre de 2021.</p></div>
+<p>La ceremonia dará inicio a las 16:00 hs y culminarán a las 23:00 hrs. Por protocolo COVID-19 todas y todos los invitados deben estar vacunados. Es importante confirmar presencia hasta del 26 de diciembre de 2021.</p></div>
 </div>
 </div><div class="et_pb_column et_pb_column_1_2 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
 </div>
@@ -355,8 +355,8 @@ Juan & Laura </a>
 </div>
 <div class="et_pb_module et_pb_text et_pb_text_9  et_pb_text_align_left et_pb_bg_layout_light">
 <div class="et_pb_text_inner"><h3>Colectivo</h3>
-<p>Banco Itau:<br>Numbre: Laura Lazo<br>Nro Cuenta: XXXX<br>Tipo: Caja de Ahorro</p>
-<p>Colectivo Abitab:<br>Nombre: Juan Y Laura Casamiento<br>Nro: 120855</p>
+<p>Banco Itau:<br>Numbre: Laura Lazo<br>Nro Cuenta: 9878152<br>Tipo: Caja de Ahorro en Pesos</p>
+<p>Colectivo Abitab:<br>Nro: 120855</p>
 </div>
 </div>
 {{-- <div class="et_pb_module et_pb_image et_pb_image_13">
