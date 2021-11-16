@@ -355,7 +355,7 @@ Juan & Laura </a>
 </div>
 <div class="et_pb_module et_pb_text et_pb_text_9  et_pb_text_align_left et_pb_bg_layout_light">
 <div class="et_pb_text_inner"><h3>Colectivo</h3>
-<p><strong>Banco Itau</strong><br>Numbre: Laura Lazo<br>Nro Cuenta: 9878152<br>Tipo: Caja de Ahorro en Pesos</p>
+<p><strong>Banco Itau</strong><br>Nombre: Laura Lazo<br>Nro Cuenta: 9878152<br>Tipo: Caja de Ahorro en Pesos</p>
 <p><strong>Colectivo Abitab</strong><br>Nro: 120855</p>
 </div>
 </div>
