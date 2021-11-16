@@ -780,7 +780,7 @@ document.getElementById('attendees_form').addEventListener('submit', function() 
     document.getElementById('et_pb_contact_form_0').innerHTML = '<p style="text-align: center; font-size: 25px;">¡Muchas gracias por confirmar tu presencia!</p>';
     setTimeout(function() {
       window.location.reload();
-    }, 1500);
+    }, 4500);
   }, 1000);
 })
 
