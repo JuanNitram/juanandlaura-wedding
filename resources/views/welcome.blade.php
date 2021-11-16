@@ -322,7 +322,7 @@ Juan & Laura </a>
 <div class="et_pb_column et_pb_column_1_2 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough">
 <div class="et_pb_module et_pb_text et_pb_text_6  et_pb_text_align_left et_pb_bg_layout_light">
 <div class="et_pb_text_inner"><h2>Detalles del Casamiento</h2>
-<p>La ceremonia dará inicio a las 16:00 hs y culminarán a las 23:00 hrs. Por protocolo COVID-19 todas y todos los invitados deben estar vacunados. Es importante confirmar presencia hasta del 26 de diciembre de 2021.</p></div>
+<p>La ceremonia dará inicio a las 16:00 hs y culminarán a las 23:00 hrs. Por protocolo COVID-19 todas y todos los invitados deben estar vacunados. Es importante confirmar presencia hasta el 26 de diciembre de 2021.</p></div>
 </div>
 </div><div class="et_pb_column et_pb_column_1_2 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
 </div>
@@ -438,17 +438,17 @@ Juan & Laura </a>
 <p class="label">Días</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="hours section values zero" data-short="Hrs" data-full="Horas">
+</div><div class="hours section values zero" data-short="Hr" data-full="Horas">
 <p class="value">00</p>
 <p class="label">Horas</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="minutes section values zero" data-short="Mins" data-full="Minutos">
+</div><div class="minutes section values zero" data-short="Min" data-full="Minutos">
 <p class="value">00</p>
 <p class="label">Minutos</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="seconds section values zero" data-short="Segs" data-full="Segundos">
+</div><div class="seconds section values zero" data-short="Seg" data-full="Segundos">
 <p class="value">00</p>
 <p class="label">Segundos</p>
 </div>

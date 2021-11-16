@@ -336,17 +336,17 @@ jQuery.noConflict();
 <p class="label">Días</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="hours section values zero" data-short="Hrs" data-full="Horas">
+</div><div class="hours section values zero" data-short="Hr" data-full="Horas">
 <p class="value">00</p>
 <p class="label">Horas</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="minutes section values zero" data-short="Mins" data-full="Minutos">
+</div><div class="minutes section values zero" data-short="Min" data-full="Minutos">
 <p class="value">00</p>
 <p class="label">Minutos</p>
 </div><div class="sep section zero">
 <p>:</p>
-</div><div class="seconds section values zero" data-short="Segs" data-full="Segundos">
+</div><div class="seconds section values zero" data-short="Seg" data-full="Segundos">
 <p class="value">00</p>
 <p class="label">Segundos</p>
 </div>
@@ -679,7 +679,7 @@ document.getElementById('attendees_form').addEventListener('submit', function() 
     document.getElementById('et_pb_contact_form_0').innerHTML = '<p style="text-align: center; font-size: 25px;">¡Muchas gracias por confirmar tu presencia!</p>';
     setTimeout(function() {
       window.location.reload();
-    }, 1500);
+    }, 4500);
   }, 1000);
 })
 
