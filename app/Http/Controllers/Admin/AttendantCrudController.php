@@ -29,6 +29,7 @@ class AttendantCrudController extends CrudController
         CRUD::setModel(\App\Models\Attendant::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/attendant');
         CRUD::setEntityNameStrings('attendant', 'attendants');
+        $this->crud->enableExportButtons();
     }
 
     /**
@@ -39,12 +40,20 @@ class AttendantCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('id');
+        // CRUD::column('id');
         CRUD::column('full_name');
-        $this->crud->addColumn(['name' => 'attend', 'label' => 'Attend', 'type' => 'boolean', 'options' => [0 => 'Attend', 1 => 'No Attend']]);
+        // $this->crud->addColumn(['name' => 'attend', 'label' => 'Attend', 'type' => 'boolean', 'options' => [0 => 'No Attend', 1 => 'Attend']]);
         CRUD::column('type');
-        CRUD::column('certificate_url');
-        CRUD::column('created_at');
+        // CRUD::column('certificate_url');
+
+
+        $this->crud->addColumn([
+            'name'  => 'certificate_url',
+            'label' => 'Certificate',
+            'type'  => 'text',
+            'limit' => 20000
+        ]);
+        // CRUD::column('created_at');
 
         $this->crud->denyAccess('update');
 
@@ -95,7 +104,7 @@ class AttendantCrudController extends CrudController
         $this->crud->set('show.setFromDb', false);
         
         CRUD::column('full_name');
-        $this->crud->addColumn(['name' => 'attend', 'label' => 'Attend', 'type' => 'boolean', 'options' => [0 => 'Attend', 1 => 'No Attend']]);
+        $this->crud->addColumn(['name' => 'attend', 'label' => 'Attend', 'type' => 'boolean', 'options' => [0 => 'No Attend', 1 => 'Attend']]);
         CRUD::column('type');
         CRUD::column('certificate_url');
         CRUD::column('created_at');
